@@ -39,15 +39,14 @@ include_once($configuracion["raiz_documento"].$configuracion["clases"]."/sesion.
 **/
 $acceso_db=new dbms($configuracion);
 $enlace=$acceso_db->conectar_db();
-if (is_resource($enlace))
+if (is_object($enlace))
 {
 	//Rescatar el nivel de acceso de la pagina
 	$cadena_sql="SELECT nivel FROM ".$configuracion["prefijo"]."pagina WHERE nombre='".$nombre."' LIMIT 1";
-	//echo $cadena_sql;
+	echo $cadena_sql;
 	$acceso_db->registro_db($cadena_sql,0);
 	$registro=$acceso_db->obtener_registro_db();
 	$total=$acceso_db->obtener_conteo_db();
-	//echo 'El numero total de registros es: '.$total.'<br>';
 	if($total<1)
 	{
 		//TODO Mensaje de error porque la pagina no tiene estructura basica		

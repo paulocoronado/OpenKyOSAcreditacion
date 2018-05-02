@@ -225,31 +225,21 @@ class dbms
 		{
 			
 			case 'mysql':
-					
-					$this->enlace=mysql_connect($this->servidor, $this->usuario, $this->clave);
-					
-					if($this->enlace)
-					{
-						$base=mysql_select_db($this->db);	
-						if($base)
-						{
-							
-							return $this->enlace;	
-							
-						}
-						else
-						{
-							$this->error["numero"] =mysql_errno();
-							$this->error["error"] =mysql_error();	
-						}
-						
-									
-					}
-					else
-					{
-						$this->error["numero"] =mysql_errno();
-						$this->error["error"] =mysql_error();
-					}
+			
+                            $this->enlace = new mysqli($this->servidor, $this->usuario, $this->clave, $this->db);
+                                if($this->enlace->connect_error)
+                                {
+                                    echo  $this->enlace->connect_error;
+                                    $this->error["numero"] = $this->enlace->connect_errno;
+                                    $this->error["error"] = $this->enlace->connect_error;
+                                    return false;
+
+                                }
+                                else
+                                {
+                                   
+                                    return $this->enlace;	
+                                }
 					
 		}
 	} // Fin del método conectar_db
