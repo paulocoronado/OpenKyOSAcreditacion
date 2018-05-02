@@ -1,0 +1,4 @@
+Tablas relacionadas:
+
+profesor
+tipo_identificacion

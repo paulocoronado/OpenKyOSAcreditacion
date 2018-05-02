@@ -1,0 +1,65 @@
+<table class="bloquelateral" border="0" cellpadding="5"
+ cellspacing="0">
+  <tbody>
+    <tr class="bloquecentralencabezado">
+      <td>
+      Informaci&oacute;n Documental - Secci&oacute;n Instituto de Investigaciones
+      </td>
+    </tr>
+    <tr class="bloquecentralcuerpo">
+      <td>
+      <table border="0" cellpadding="10"
+ cellspacing="0">
+        <tbody>
+          <tr class="bloquecentralcuerpo">
+            <td>
+            <p style="margin-bottom: 0cm; text-align: justify;">Bienvenido al
+M&oacute;dulo de Informaci&oacute;n Documental. Desde aqu&iacute; podr&aacute; ingresar la informaci&oacute;n con la que su
+dependencia contribuye al proceso de autoevaluaci&oacute;n de los diferentes programas
+acad&eacute;micos y al proceso de b&uacute;squeda permanente de la
+alta calidad institucional.</p>
+            <p style="margin-bottom: 0cm; text-align: justify;">Las
+opciones principales que le ofrece
+el men&uacute; del m&oacute;dulo son las siguientes:</p>
+            <div style="text-align: justify;"><br>
+            <span style="font-weight: bold;">Informaci&oacute;n
+de grupos de investigaci&oacute;n</span><br>
+Para el ingreso de informaci&oacute;n b&aacute;sica de los grupos de investigaci&oacute;n existentes en la instituci&oacute;n<br>
+             <div style="text-align: justify;"><br>
+            <p style="margin-bottom: 0cm; text-align: justify;"><span
+ style="font-weight: bold;">Informaci&oacute;n sobre profesores</span><br>
+Para el ingreso de la informaci&oacute;n estad&iacute;stica correspondiente a las publicaciones en revistas 
+indexadas y especializadas, innovaciones, creación artística y patentes obtenidas por profesores de los programas.</p>
+            </div>
+            <div style="text-align: justify;"><br>
+            <p style="margin-bottom: 0cm; text-align: justify;"><span
+ style="font-weight: bold;">Criterios y pol&iacute;ticas institucionales.</span><br>
+Desde donde podr&aacute; ingresar los documentos que expresan criterios y politicas institucionales 
+en materia de investigación.</p>
+            </div>
+            <div style="text-align: justify;"><br>
+            <p style="margin-bottom: 0cm; text-align: justify;"><span
+ style="font-weight: bold;">Pol&iacute;ticas para los programas.</span><br>
+Para el ingreso de informaci&oacute;n sobre la organización, los procedimientos y el presupuesto con que 
+cuenta los programas para el desarrollo de proyectos de investigación.</p>
+            </div>
+            <div style="text-align: justify;"><br>
+            <p style="margin-bottom: 0cm; text-align: justify;"><span
+ style="font-weight: bold;">Indicadores</span><br>
+Desde donde podr&aacute; seleccionar los diferentes indicadores que
+requieren del ingreso de informaci&oacute;n representada en informes o
+tablas. El sistema desplegar&aacute; un asistente que le guiar&aacute;
+paso a paso en la tarea.</p>
+            </div>            
+            <p style="margin-bottom: 0cm; text-align: justify;">La
+Universidad Distrital Francisco Jos&eacute; de Caldas agradece
+su colaboraci&oacute;n y apoyo en este proceso.</p>
+&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
