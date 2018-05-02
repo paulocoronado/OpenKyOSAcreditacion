@@ -24,7 +24,7 @@ Copyright (C) 2001-2005
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Pequenna funcion para codificar los enlaces de los menus
 * @usage        invocar a la funcion enlace con el nombre de la pagina
 *****************************************************************************************************************/

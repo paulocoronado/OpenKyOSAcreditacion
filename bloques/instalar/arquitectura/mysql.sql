@@ -20,7 +20,7 @@ CREATE TABLE `aplicativo_acceso` (
   `id_usuario` varchar(5) NOT NULL default '',
   `acceso` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`id_usuario`,`acceso`)
-) TYPE=MyISAM COMMENT='Registro de acceso de los usuarios';;;
+)  COMMENT='Registro de acceso de los usuarios';;;
 
 
 
@@ -35,7 +35,7 @@ CREATE TABLE `aplicativo_bloque` (
   `grupo` varchar(20) NOT NULL default '',
   PRIMARY KEY  (`id_bloque`),
   KEY (`id_bloque`)
-) TYPE=MyISAM COMMENT='Bloques disponibles';;;
+)  COMMENT='Bloques disponibles';;;
 
 # --------------------------------------------------------
 
@@ -49,7 +49,7 @@ CREATE TABLE `aplicativo_bloque_pagina` (
   `seccion` char(2) NOT NULL default '',
   `posicion` int(2) NOT NULL default '0',
   PRIMARY KEY  (`id_pagina`,`id_bloque`)
-) TYPE=MyISAM COMMENT='Estructura de bloques de las paginas en el aplicativo';;;
+)  COMMENT='Estructura de bloques de las paginas en el aplicativo';;;
 
 # --------------------------------------------------------
 
@@ -61,7 +61,7 @@ CREATE TABLE `aplicativo_ciudad` (
   `id_ciudad` int(5) NOT NULL auto_increment,
   `nombre` varchar(50) default NULL,
   PRIMARY KEY  (`id_ciudad`)
-) TYPE=MyISAM AUTO_INCREMENT=2 ;;;
+)  AUTO_INCREMENT=2 ;;;
 
 # --------------------------------------------------------
 
@@ -72,7 +72,7 @@ CREATE TABLE `aplicativo_ciudad` (
 CREATE TABLE `aplicativo_ciudad_pais` (
   `id_pais` int(5) default NULL,
   `id_ciudad` int(5) default NULL
-) TYPE=MyISAM;;;
+) ;;;
 
 
 # --------------------------------------------------------
@@ -85,7 +85,7 @@ CREATE TABLE `aplicativo_estilo` (
   `usuario` varchar(50) NOT NULL default '0',
   `estilo` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`usuario`,`estilo`)
-) TYPE=MyISAM COMMENT='Estilo de pagina en el sitio';;;
+)  COMMENT='Estilo de pagina en el sitio';;;
 
 #
 # Dumping data for table `aplicativo_estilo`
@@ -106,7 +106,7 @@ CREATE TABLE `aplicativo_pagina` (
   `modulo` varchar(50) NOT NULL default '',
   `nivel` int(2) NOT NULL default '0',
   PRIMARY KEY  (`id_pagina`)
-) TYPE=MyISAM PACK_KEYS=0 COMMENT='Relacion de paginas en el aplicativo' ;;;
+)  PACK_KEYS=0 COMMENT='Relacion de paginas en el aplicativo' ;;;
 
 #
 # Table structure for table `aplicativo_pais`
@@ -118,7 +118,7 @@ CREATE TABLE `aplicativo_pais` (
   `identificador` varchar(4) NOT NULL default '',
   PRIMARY KEY  (`id_pais`),
   KEY `id_pais` (`id_pais`)
-) TYPE=MyISAM ;;;
+)  ;;;
 
 #
 # Dumping data for table `aplicativo_pais`
@@ -142,7 +142,7 @@ CREATE TABLE `aplicativo_registrado` (
   `estado` int(1) NOT NULL default '0',
   PRIMARY KEY  (`id_usuario`),
   KEY (`id_usuario`)
-) TYPE=MyISAM ;;;
+)  ;;;
 
 # --------------------------------------------------------
 
@@ -155,7 +155,7 @@ CREATE TABLE `aplicativo_tipo_usuario` (
   `nombre` varchar(50) NOT NULL default '',
   `Descripcion` varchar(250) NOT NULL default '',
   PRIMARY KEY  (`id_usuario`)
-) TYPE=MyISAM COMMENT='Tipos de usuarios que pueden existir en el sistema';;;
+)  COMMENT='Tipos de usuarios que pueden existir en el sistema';;;
 
 # --------------------------------------------------------
 
@@ -168,7 +168,7 @@ CREATE TABLE `aplicativo_usuario` (
   `clave` varchar(50) NOT NULL default '',
   `tipo` int(2) NOT NULL default '0',
   PRIMARY KEY  (`nombre`,`clave`)
-) TYPE=MyISAM;;;
+) ;;;
 
 #
 # Table structure for table `aplicativo_valor_sesion`
@@ -179,5 +179,5 @@ CREATE TABLE `aplicativo_valor_sesion` (
   `variable` varchar(20) NOT NULL default '',
   `valor` text NOT NULL,
   PRIMARY KEY  (`id_sesion`,`variable`)
-) TYPE=MyISAM COMMENT='Valores de sesion';;;
+)  COMMENT='Valores de sesion';;;
 

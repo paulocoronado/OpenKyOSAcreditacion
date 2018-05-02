@@ -25,7 +25,7 @@ Por favor lea GNU General Public License para más detalles.
 * @copyright     GPL
 * @version      	1.0
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 
 * pregunta Class 
 *

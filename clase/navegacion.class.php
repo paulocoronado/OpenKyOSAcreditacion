@@ -23,7 +23,7 @@ Copyright (C) 2001-2005
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Clase para el manejo de elementos HTML (XML)
 *******************************************************************************
 *Atributos

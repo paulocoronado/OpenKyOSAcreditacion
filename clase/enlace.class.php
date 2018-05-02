@@ -19,7 +19,7 @@
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Clase disennada para crear enlaces a las paginas
 *
 *******************************************************************************/

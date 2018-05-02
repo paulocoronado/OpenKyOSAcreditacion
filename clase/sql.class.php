@@ -20,7 +20,7 @@
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Adaptacion del archivo de arquitectura de la db.
 *
 *****************************************************************************************************************/

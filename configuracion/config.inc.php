@@ -18,7 +18,7 @@
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Archivo en donde se encuentran los parametros globales de configuracion
 *
 *******************************************************************************/
@@ -38,7 +38,7 @@ $configuracion["dbsys"]= 'mysql';
 $configuracion["db_dns"] = 'localhost';
 $configuracion["db_nombre"] = 'acreditacion';
 $configuracion["db_usuario"] = 'acreditacion';
-$configuracion["db_clave"] = 'gardel';
+$configuracion["db_clave"] = 'gardel1974=';
 $configuracion["correo_admin"] = 'paulocoronado@gmail.com';
 $configuracion["host"] = 'http://localhost';
 $configuracion["site"] = 'OpenKyOSAcreditacion';

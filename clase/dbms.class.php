@@ -19,7 +19,7 @@
 * @copyright    
 * @version      0.2
 * @author      	Paulo Cesar Coronado
-* @link		http://acreditacion.udistrital.edu.co
+* @link		http://www.openkyos.com
 * @description  Esta clase esta disennada para administrar todas las tareas relacionadas con la base de datos.
 *
 *******************************************************************************/
